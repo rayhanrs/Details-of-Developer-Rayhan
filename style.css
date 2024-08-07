@@ -44,18 +44,18 @@ body {
 	width: 100%;
 }
 .card {
-	margin-top: 100px;
+	margin-top: 100px !important;
 	width: 320px !important;
-	position: relative;
-	top: 0px;
-	left: -300px;
-	transition: all 0.5s;
-	display: inline-block;
+	position: relative !important;
+	top: 0px !important;
+	left: -300px !important;
+	transition: all 0.5s !important;
+	display: inline-block !important;
 }
 .card:hover{
-	position: relative;
-	top: 0px;
-	left: 0px;
+	position: relative !important;
+	top: 0px !important;
+	left: 0px !important;
 }
 
 
