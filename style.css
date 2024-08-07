@@ -10,6 +10,8 @@ body {
 .brand {
 	font-family: 'Raleway', sans-serif;
 }
+
+
 html,
 body {
 	height: 100%;
@@ -21,6 +23,44 @@ body {
 	/* background-color: #B5B5B5; */
 	position: relative;
 }
+
+
+
+.card{position:relative;display:flex;flex-direction:column;min-width:0;word-wrap:break-word;background-color:#fff;background-clip:border-box;border:1px solid rgba(0,0,0,.125);border-radius:.25rem}
+.card{flex:1 0 0%;margin-bottom:0}
+.card{margin-bottom:.75rem}
+.card{margin-left:0;border-left:0}
+
+.card-img-top{width:100%}
+.card-img-top{border-top-left-radius:calc(.25rem - 1px);border-top-right-radius:calc(.25rem - 1px)}
+.card-img-top{border-top-right-radius:0}
+.card-img-top{border-top-left-radius:0}
+.card-body{flex:1 1 auto;padding:1rem 1rem}
+.card-title{margin-bottom:.5rem}
+
+.card-img-top {
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+	width: 100%;
+}
+.card {
+	margin-top: 100px;
+	width: 320px !important;
+	position: relative;
+	top: 0px;
+	left: -300px;
+	transition: all 0.5s;
+	display: inline-block;
+}
+.card:hover{
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+
+
+
+
 h1,
 h2,
 h3,
