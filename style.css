@@ -55,7 +55,7 @@ body {
 .card:hover{
 	position: relative !important;
 	top: 0px !important;
-	left: 0px !important;
+	left: 20px !important;
 }
 
 
